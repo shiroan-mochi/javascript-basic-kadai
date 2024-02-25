@@ -1,6 +1,6 @@
 let num = 112;
 
-if (num % 15 === 0){
+if (num % 5 === 0 && num % 3 === 0){
   console.log('3と5の倍数です');
 }else if (num % 5 === 0){
   console.log('5の倍数です');
